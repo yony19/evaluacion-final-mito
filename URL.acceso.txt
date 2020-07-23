@@ -6,6 +6,9 @@ Servicio autentificación:
 
 Servicio Gateway zuul:
     https://gateway-evaluacion-zuul.herokuapp.com/
+    End points:
+        /uaa           --> Autentificación
+        /farmacia-api  --> Recursos
 
 Servicio Recursos:
     https://evaluacion-medical.herokuapp.com/
