@@ -1,0 +1,29 @@
+server:  
+  port: ${PORT:9999}
+  
+spring:
+  jpa:
+     database: POSTGRESQL
+     show-sql: true
+     hibernate:
+        ddl-auto: update
+        
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost/farmaco
+    username: postgres
+    password: bitzua
+    
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://eureka-evaluacion.herokuapp.com/eureka/ #http://localhost:8761/eureka/
+      
+security:
+  oauth2:
+    client:
+      client-id: mito
+      client-secret: mitosecret
+      authorized-grant-types: password,client_credentials,authorization_code,refresh_token
+      scope: read,write    

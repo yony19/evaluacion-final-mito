@@ -1,0 +1,47 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Spring EV - Final</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="./js/global.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="./js/login.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+</head>
+
+<body>
+    <section id="login">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="form-wrap">
+                        <h1>Iniciar Session</h1>
+                        <form role="form" action="javascript:;" method="post" id="med-form" autocomplete="off">
+                            <div class="form-group">
+                                <label for="usuario">Usuario</label>
+                                <input type="text" name="usuario" id="usuario" class="form-control" required placeholder="Correo" value="mito">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Contraseña</label>
+                                <input type="password" name="password" id="password" required class="form-control"
+                                    placeholder="Password" value="123">
+                            </div>
+                            <input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Buscar">
+                        </form>
+                        <hr>
+                    </div>
+                </div>
+                <!-- /.col-xs-12 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+</body>
+
+</html>

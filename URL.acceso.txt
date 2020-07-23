@@ -1,0 +1,17 @@
+Servicio Eureka Server:
+    https://eureka-evaluacion.herokuapp.com/
+
+Servicio autentificación:
+    https://auth-mito-micro.herokuapp.com/
+
+Servicio Gateway zuul:
+    https://gateway-evaluacion-zuul.herokuapp.com/
+
+Servicio Recursos:
+    https://evaluacion-medical.herokuapp.com/
+
+Aplicación front end 
+    https://front-evaluacion-mito.herokuapp.com/
+
+
+Todo codigo fuente en github

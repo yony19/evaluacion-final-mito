@@ -1,0 +1,81 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Spring EV - Final</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="./js/global.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+</head>
+
+<body>
+    <section id="login">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <h1>Listado</h1>
+                    <ul id="listadoMedicamento">
+                        
+                    </ul>
+                </div>
+                <div class="col-xs-4">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="form-wrap" style="width: 100%;">
+                                <h1>Buscar Medicamento</h1>
+                                <form role="form"  action="javascript:;" method="post" id="med-form" autocomplete="off">
+                                    <div class="form-group">
+                                        <input type="text" name="text" id="txtMedicamento" class="form-control" placeholder="Ingresar medicamento">
+                                        <div id="listMedicamento" class="">
+                                        </div>
+                                    </div>
+                                   <!--<input type="submit" id="btn-buscar" class="btn btn-custom btn-lg btn-block" value="Buscar">--> 
+                                </form>
+                                <hr>
+                            </div>
+                        </div>
+                        <div id="precioBody" class="col-xs-12">
+                    
+                        </div>
+                        <div class="col-xs-12">
+                            <input type="button" id="btn-registrar" class="btn btn-custom btn-lg btn-block" value="Registrar">
+                        </div>
+                    </div>
+                    <a href="registro.html" class="btn btn-link" role="button">Ir a Registros</a>
+                </div>
+                <!-- /.col-xs-12 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <div>
+                    </div>
+                </div>
+                
+            </div>            
+        </div>
+    </section>
+
+    <br /><br />
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>Spring Evaluación Final © - 2017</p>
+                    <p><strong><a href="http://www.mitocodenetwork.com/premium/" target="_blank">MitoCode Network</a></strong></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
